@@ -22,7 +22,7 @@ In benchmark tasks for generating optimized ligands against unseen test proteins
     └── SMINA
     ```
 2. Preparing the training datasets<br>
-    Download datasets from [here](https://drive.google.com/drive/folders/1JOpd19PASwbugE6n21KHSjEKscDiGibR?usp=sharing). Then, Place the downloaded files in the following directory:
+    The allData.zip file is included in the datasets directory. Extract allData.zip in the same directory before running the code.
     ```
     <home_directory>
     └── FRATTPRO
