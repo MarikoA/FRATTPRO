@@ -117,17 +117,15 @@ This step prepares the dataset and defines the training conditions for FRATTPRO.
 
 
 
-### Test
-For comparison with previous work, [Alpha Drug](https://github.com/CMACH508/AlphaDrug), the test data can be obtained from [here](https://github.com/CMACH508/AlphaDrug/tree/main/data/test_pdbs).
-
-1. Prepare test data from AlphaDrug<br>
+### Test (generating and docking)
+1. Prepare test data<br>
     You may also use your own data as long as the folder structure is the same.
     ```
     <home_directory>
     └── FRATTPRO
         └── PDB
             ├── pdb_tankyrase
-            └── test_pdbs  //from AlpaDrug/data/test_pdbs
+            └── pdb_AlphaDrug  //from AlpaDrug
     ```
 2. Test<br>
     First, edit the settings in this file as needed.
