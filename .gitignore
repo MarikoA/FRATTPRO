@@ -1,0 +1,8 @@
+results/
+smina-output/
+data/
+models/__pycache__/
+utils/__pycache__/
+*.log
+*.key
+*.pem

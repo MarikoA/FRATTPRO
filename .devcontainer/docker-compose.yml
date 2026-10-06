@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  python:
+    image: mariko-fplg:c63fb453f0f0
+    volumes:
+      - ..:/home/miniconda-user/workspace
+    ports:
+      - "${APP_PORT:-8000}:8000"
