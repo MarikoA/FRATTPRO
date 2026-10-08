@@ -22,7 +22,7 @@ In benchmark tasks for generating optimized ligands against unseen test proteins
     └── SMINA
     ```
 2. Preparing the training datasets<br>
-    The allData.zip file is included in the datasets directory. Extract allData.zip in the same directory before running the code.
+    Download datasets from here. Then, Place the downloaded files in the following directory:
     ```
     <home_directory>
     └── FRATTPRO
@@ -119,7 +119,7 @@ This step prepares the dataset and defines the training conditions for FRATTPRO.
 
 ### Test (generating and docking)
 1. Prepare test data<br>
-    You may also use your own data as long as the folder structure is the same.
+    Download datasets from here. You may also use your own data as long as the folder structure is the same.
     ```
     <home_directory>
     └── FRATTPRO
